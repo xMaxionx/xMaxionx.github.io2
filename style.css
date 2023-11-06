@@ -1,0 +1,53 @@
+/* Agregar estilos personalizados a la tarjeta */
+.card {
+    width: 300px; /* Ancho personalizado */
+    margin: 20px; /* Espacio entre tarjetas */
+    border: 1px solid #cccccc; /* Borde delgado */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  }
+  
+  .card-image {
+    position: central; /* Para alinear el contenido de la imagen */
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0; /* Redondear la esquina superior de la imagen */
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem; /* Tamaño de fuente del título */
+    margin-bottom: 10px;
+  }
+  
+  .card-content p {
+    font-size: 1rem; /* Tamaño de fuente del contenido */
+  }
+  
+  .card-reveal {
+    background-color: #fff; /* Fondo del área de revelado */
+    padding: 20px;
+    border-radius: 0 0 10px 10px; /* Redondear la esquina inferior del área de revelado */
+    display: none; /* Ocultar el área de revelado inicialmente */
+  }
+  
+  .card-reveal .card-title {
+    font-size: 1.5rem; /* Tamaño de fuente del título de revelado */
+    margin-bottom: 10px;
+  }
+  
+  .card-reveal p {
+    font-size: 1rem; /* Tamaño de fuente del contenido de revelado */
+  }
+  
+  /* Cambiar el color del enlace */
+  .card-content a {
+    color: #000000; /* Azul brillante */
+  }
+  
